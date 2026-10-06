@@ -1,0 +1,16 @@
+# Secrets - NEVER commit these
+credentials.json
+token.json
+client_secret*.json
+run.ps1
+.env
+
+# Logs
+agent.log
+*.log
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
